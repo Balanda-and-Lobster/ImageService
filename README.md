@@ -14,3 +14,6 @@ The service responsible for image persistence, processing and pickup.
 2. investigate GCP for image/file storage  
 3. setup GCP  
 4. investigate the best way to work with db in k8s (cheap and reliable)  
+
+
+http://localhost:8085/WeatherForecast
