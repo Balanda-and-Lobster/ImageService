@@ -16,4 +16,6 @@ The service responsible for image persistence, processing and pickup.
 4. investigate the best way to work with db in k8s (cheap and reliable)  
 
 
+docker build . -t imageservice
+docker run -d -p 8085:80 imageservice
 http://localhost:8085/WeatherForecast
