@@ -12,9 +12,9 @@ namespace Application.Controllers
     [ApiController]
     public class PingController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> logger;
+        private readonly ILogger<PingController> logger;
 
-        public PingController(ILogger<WeatherForecastController> logger)
+        public PingController(ILogger<PingController> logger)
         {
             this.logger = logger;
         }
