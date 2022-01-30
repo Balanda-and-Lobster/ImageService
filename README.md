@@ -19,3 +19,10 @@ The service responsible for image persistence, processing and pickup.
 docker build . -t imageservice
 docker run -d -p 8085:80 imageservice
 http://localhost:8085/WeatherForecast
+
+
+
+## notes
+PR restirction after CI/CD implementation  
+probably some kind of stylecope in future  
+docs  
