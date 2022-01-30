@@ -8,6 +8,7 @@ The service responsible for image persistence, processing and pickup.
 4. lib to work with GCP image/file  
 5. relational db (for instance: mysql, mssql, postgressql, etc)
 ## bober
+1. create free gcp account  
 1. docker improvements  
 2. investigate GCP for image/file storage  
 3. setup GCP  
