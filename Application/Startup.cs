@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ImageService
+namespace Application
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace ImageService
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ImageService", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Application", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace ImageService
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ImageService v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Application v1"));
             }
 
             app.UseHttpsRedirection();
