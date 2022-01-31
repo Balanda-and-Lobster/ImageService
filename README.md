@@ -1,5 +1,8 @@
 # ImageService
-The service responsible for image persistence, processing and pickup.
+The service responsible for image persistence, processing and pickup.  
+
+![basic-architecture](https://github.com/Balanda-and-Lobster/ImageService/blob/main/docs/resources/overview.png)
+
 
 ## oml
 1. initial solution  
